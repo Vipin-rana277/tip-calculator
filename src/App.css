@@ -1,0 +1,184 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  background: #C5E4E7;
+    height: 100vh;
+}
+
+.header-label {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.label {
+  font-family: IBM Plex Mono;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #6B7777;
+  margin: 0;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.amt-card {
+  background: white;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    border-radius: 20px;
+    display: flex;
+    gap: 0px 20px;
+}
+
+input {
+  background: #F3F8FB;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  width: 91%;
+  padding: 10px 10px 10px 22px;
+  text-align: end;
+  color: #00474B;
+  font-family: IBM Plex Mono;
+  font-weight: 700;
+}
+
+.pst-relative {
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+    left: 6px;
+    bottom: 9px;
+    color: #6B7777;
+}
+
+p {
+  font-family: IBM Plex Mono;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+    border: none;
+    padding: 6px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: IBM Plex Mono;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.btn-container {
+  margin-top: 25px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.primary {
+  background: #00474B;
+  color: white;
+}
+
+.secondary {
+  background: #F3F8FB;
+  color: #00474B;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.pm-10 {
+  padding: 0px 20px;
+}
+
+.percent-card {
+  background: #00474B;
+  color: white;
+  border-radius: 15px;
+  margin: 25px 0px 0px 0px;
+  display: block;
+  justify-content: center;
+}
+
+.split-card {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0px;
+}
+
+.tip {
+  font-size: 16px;
+    font-weight: 500;
+}
+
+.amt {
+  font-size: 32px;
+  font-weight: 700;
+  color: #21C3AC;
+}
+
+.reset-btn {
+  width: 100%;
+    color: #004849;
+    margin-top: 50px;
+    background: #9FE8DF;
+    ;
+}
